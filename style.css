@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+scroll-behavior:smooth;
+}
+
+/* Body */
+body{
+background: linear-gradient(135deg, #0f172a, #020617);
+color:#e2e8f0;
+padding:30px;
+}
+
+/* Container */
+.container{
+max-width:950px;
+margin:auto;
+padding:30px;
+border-radius:15px;
+background: rgba(30,41,59,0.6);
+backdrop-filter: blur(12px);
+box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* Header */
+header{
+text-align:center;
+margin-bottom:20px;
+}
+
+header h1{
+font-size:42px;
+color:#38bdf8;
+}
+
+header p{
+color:#94a3b8;
+}
+
+/* Navbar */
+.navbar{
+display:flex;
+justify-content:center;
+gap:30px;
+margin:25px 0;
+}
+
+.navbar a{
+text-decoration:none;
+color:#cbd5f5;
+font-weight:500;
+position:relative;
+transition:0.3s;
+}
+
+.navbar a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-5px;
+width:0%;
+height:2px;
+background:#38bdf8;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#38bdf8;
+}
+
+.navbar a:hover::after{
+width:100%;
+}
+
+/* Sections */
+section{
+margin:40px 0;
+padding:20px;
+border-radius:12px;
+background: rgba(51,65,85,0.3);
+}
+
+/* Headings */
+h2{
+margin-bottom:15px;
+color:#38bdf8;
+border-bottom:2px solid #334155;
+padding-bottom:6px;
+}
+
+/* About */
+.about-box{
+display:flex;
+align-items:center;
+gap:30px;
+}
+
+.about-img img{
+width:160px;
+height:170px;
+border-radius:12px;
+border:3px solid #38bdf8;
+}
+
+/* Text */
+.about-text{
+flex:1;
+line-height:1.6;
+color:#cbd5f5;
+}
+
+/* Skills */
+.skills-list{
+list-style:none;
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:10px;
+}
+
+.skills-list li{
+background:#334155;
+padding:10px 18px;
+border-radius:25px;
+font-size:14px;
+}
+
+/* keep only color change (no scale) */
+.skills-list li:hover{
+background:#38bdf8;
+color:#0f172a;
+}
+
+/* Form */
+form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:none;
+background:#334155;
+color:white;
+}
+
+input:focus,textarea:focus{
+outline:none;
+box-shadow:0 0 0 2px #38bdf8;
+}
+
+/* Button */
+button{
+margin-top:10px;
+background:#38bdf8;
+border:none;
+padding:12px;
+border-radius:8px;
+font-weight:600;
+cursor:pointer;
+}
+
+/* only color change */
+button:hover{
+background:#0ea5e9;
+}
+
+/* Footer */
+footer{
+text-align:center;
+margin-top:30px;
+color:#94a3b8;
+font-size:14px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.about-box{
+flex-direction:column;
+text-align:center;
+}
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+}
