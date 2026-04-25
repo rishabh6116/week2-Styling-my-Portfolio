@@ -74,11 +74,11 @@ Contains a contact form with:
 
 ## 🏠 Portfolio Homepage
 
-![Homepage]<img width="1600" height="737" alt="image" src="https://github.com/user-attachments/assets/d14234a1-dae2-4c78-9586-12e06d758c83" />
+<img width="1600" height="737" alt="image" src="https://github.com/user-attachments/assets/d14234a1-dae2-4c78-9586-12e06d758c83" />
 
 
 ## 📞 Contact Section
 
-![Contact]<img width="1600" height="587" alt="image" src="https://github.com/user-attachments/assets/055604bc-a6dd-4d4c-8ab2-1acefc30ebdd" />
+<img width="1600" height="587" alt="image" src="https://github.com/user-attachments/assets/055604bc-a6dd-4d4c-8ab2-1acefc30ebdd" />
 
 
